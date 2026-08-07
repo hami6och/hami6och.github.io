@@ -1,0 +1,15 @@
+# Menu items will go here as you add sections
+[[main]]
+  name = "OSINT"
+  pageRef = "categories/osint"
+  weight = 10
+
+[[main]]
+  name = "Forensics"
+  pageRef = "categories/forensics"
+  weight = 20
+
+[[main]]
+  name = "Reverse"
+  pageRef = "categories/reverse-engineering"
+  weight = 30

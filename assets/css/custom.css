@@ -1,0 +1,138 @@
+/* Monospace everywhere, terminal vibe */
+body, h1, h2, h3, h4, .prose, .prose p {
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, monospace !important;
+}
+
+main {
+  padding-top: 12vh;
+}
+
+html:not(.dark) body {
+  background-color: #f4f4f5 !important;
+}
+
+html.dark body {
+  background-color: #0d0f12 !important;
+}
+
+html:not(.dark) .prose a,
+html:not(.dark) article a {
+  color: #c2410c !important;
+}
+
+html.dark .prose a,
+html.dark article a {
+  color: #f97316 !important;
+}
+
+header h2 {
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  color: rgba(120, 120, 128, 0.9) !important;
+}
+
+.main-menu svg,
+header nav svg {
+  transition: color 0.2s ease;
+}
+
+.main-menu a:hover svg,
+.main-menu button:hover svg {
+  color: #f97316 !important;
+}
+
+.main-menu a.text-base {
+  color: inherit !important;
+  font-size: 1.4rem !important;
+  transition: color 0.2s ease;
+}
+
+.main-menu a.text-base:hover {
+  color: #f97316 !important;
+}
+
+main h1 {
+  font-size: 3rem !important;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+main h1:hover {
+  color: #f97316 !important;
+  transform: scale(1.05);
+}
+
+.article-content.max-w-prose,
+header.max-w-prose,
+footer.max-w-prose {
+  max-width: 100% !important;
+}
+
+.min-w-0.min-h-0.max-w-fit {
+  max-width: 100% !important;
+}
+
+/* Card title - target the actual h2 inside the link (Blowfish nests title in h2 inside the a) */
+.article-link--card a.text-xl.font-bold h2 {
+  font-family: "Verdana", "Arial", sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}
+
+html:not(.dark) .article-link--card a.text-xl.font-bold h2 {
+  color: #000000 !important;
+}
+
+html.dark .article-link--card a.text-xl.font-bold h2 {
+  color: #ffffff !important;
+}
+
+/* Card summary - smaller, lighter, stays monospace */
+.article-link__summary {
+  font-size: 0.85rem !important;
+  font-weight: 300 !important;
+  opacity: 0.6 !important;
+}
+
+/* Card box styling - subtle shadow, rounded, elevated look like reference */
+.article-link--card {
+  border-radius: 16px !important;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06) !important;
+}
+
+html:not(.dark) .article-link--card {
+  background-color: #ffffff !important;
+}
+
+html.dark .article-link--card {
+  background-color: #161a1f !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.2) !important;
+}
+
+/* Orange top border on hover */
+.article-link--card {
+  position: relative;
+  transition: box-shadow 0.2s ease;
+}
+
+.article-link--card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #f97316;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+  transform-origin: left;
+}
+
+.article-link--card:hover::before {
+  transform: scaleX(1);
+}
+
+.article-link--card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.08) !important;
+}

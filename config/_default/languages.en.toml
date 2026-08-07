@@ -1,0 +1,20 @@
+locale = "en"
+label = "English"
+weight = 1
+title = "root@hami6och:~$"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Cybersecurity & Networking Student • CTF Player"
+
+[params.author]
+  name = "hami6och"
+  headline = "Cybersecurity & Networking Student • CTF Player"
+  bio = ""
+  links = [
+    { linkedin = "https://www.linkedin.com/in/kridi-mohamed/" },
+    { github = "https://github.com/hami6och" },
+  ]
