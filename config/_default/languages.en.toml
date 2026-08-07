@@ -8,7 +8,7 @@ title = "root@hami6och:~$"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  description = "Cybersecurity & Networking Student • CTF Player"
+  description = "CTF writeups — Forensics, OSINT, and Reverse Engineering"
 
 [params.author]
   name = "hami6och"
