@@ -2,7 +2,7 @@
 date = '2026-08-07T18:22:08+01:00'
 draft = false
 title = 'EyeInSky'
-categories = ["OSINT"]
+categories = ["OSINT","NMCTF"]
 summary = "Geolocating a surveillance camera from a single street-level photo to identify the site of a kidnapping."
 +++
 
