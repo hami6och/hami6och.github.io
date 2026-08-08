@@ -1,7 +1,7 @@
 +++
 date = '2026-08-08'
 draft = false
-title = 'CHINA'
+title = '我在哪里? !'
 categories = ["OSINT","FLAGS"]
 summary = "geolocate a photo of a very \"English-looking\" spot (red brick, chimneys, manicured lawn) with Chinese-language flavor text, hinting it's not actually in England."
 +++
