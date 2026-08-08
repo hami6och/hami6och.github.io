@@ -8,8 +8,7 @@ summary = "geolocate a photo of a very \"English-looking\" spot (red brick, chim
 
 **Challenge:**
 
-![](./media/image1.jpeg){width="7.9375in"
-height="3.8229166666666665in"}
+![](./media/image1.jpeg)
 
 多么英伦风情------红砖、烟囱、修剪得整整齐齐的草坪。
 
